@@ -1,0 +1,38 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+head div{
+    display: flex;
+}
+
+.game_name p, .player_name p {
+    align-items: center;
+    padding: 15px;
+}
+ 
+
+#pokedex {
+    margin-top: 25px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-grow: 1;
+}
+
+#fiche_pokemon {
+    border: 1px solid gray;
+    border-radius: 10px;
+    text-align: center;
+}
